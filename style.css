@@ -1,0 +1,659 @@
+/*
+Plantin MT Pro Bold
+
+font-family: plantin, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Plantin MT Pro Bold Italic
+
+font-family: plantin, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Plantin MT Pro Italic
+
+font-family: plantin, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Plantin MT Pro Regular
+
+font-family: plantin, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Plantin MT Pro Bold Condensed
+
+font-family: plantin-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal; 
+
+
+<link rel="stylesheet" href="https://use.typekit.net/fus0ckt.css">
+*/
+
+html{
+    height: 100%;
+}
+
+footer{
+    height: 1080px;
+    width: auto;
+    display: flex;
+    position: absolute;
+}
+
+header{
+    font-size: 50px;
+    font-family: Plantin;
+    padding-top: 260px;
+    padding-left: 100px;
+    width: 360px;
+    flex: 10;
+    position: absolute;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-family: Plantin;
+    font-style: italic;
+    margin-top: -10px;
+}
+
+.header{
+    flex: 10;
+    position: relative;
+}
+
+.line{
+    flex: 10;
+    height: 1.5px;
+    background-color: black;
+    margin-top: 330px;
+    margin-left: 270px
+}
+
+.definition{
+    flex: 1;
+    margin-top: 280px;
+    padding-right: 50px
+}
+
+.definition p{
+    font-family: Plantin;
+    font-size: 15px;
+}
+
+footer .quote{
+    font-family: Plantin;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 30px
+}
+
+footer{
+    overflow: hidden;
+    position: absolute;
+    z-index: 3;
+}
+
+.scroll{
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    padding-left: 200px;
+
+}
+
+.scroll div{
+    width: 500px;
+    height: 100%;
+    overflow: scroll;
+    padding-left: auto;
+}
+
+.scroll img{
+    display: block;
+    margin: 0 auto;
+}
+
+.bg{
+    background-image: url(IMAGES/main_bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1080px;
+    width: auto;
+    position: relative;
+    z-index: -4;
+}
+
+/* PAGE 01
+**************************************************************/
+
+.clock01{
+    font-family: Plantin;
+    font-size: 30px;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 50px;
+    position: relative;
+    height: 100%;
+}
+
+.img01{
+    height: 500px;
+    flex: 0.6;
+    background-image:url(IMAGES/clock1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 120px;
+    
+}
+
+.clock01 p{
+    font-size: 12px;
+    flex: 0.5;
+    margin-right: 150px;
+}
+
+.big{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 814px;
+    margin-top: -15px;
+    height: 100%;
+}
+
+.footer01{
+    position: fixed;
+    margin-top: -110px;
+    margin-left: -50px;
+    font-size: 30px;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.right{
+    flex: 0.1;
+    position: absolute;
+    margin-left: 1450px;
+    margin-top: -100px;
+    width: 100px;
+    height: 100%;
+    background-color: white;
+    border: solid 1px black;
+    padding-top: 400px;
+    padding-left: 27px;
+}
+
+.left{
+    flex: 0.1;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -100px;
+    width: 65px;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    border: solid 1px black;
+    padding-top: 400px;
+    padding-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-style: italic;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+/* PG 02
+**************************************************************/
+
+.clock02{
+    font-family: Plantin;
+    font-size: 30px;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 50px;
+    position: relative;
+    height: 100%;
+}
+
+.img02{
+    height: 500px;
+    flex: 0.6;
+    background-image:url(IMAGES/clock2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 120px;
+    
+}
+
+.clock02 p{
+    font-size: 12px;
+    flex: 0.5;
+    margin-right: 150px;
+}
+
+.big{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 814px;
+    margin-top: -15px;
+    height: 100%;
+}
+
+.footer01{
+    position: fixed;
+    margin-top: -110px;
+    margin-left: -50px;
+    font-size: 30px;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.right{
+    flex: 0.1;
+    position: absolute;
+    margin-left: 1450px;
+    margin-top: -100px;
+    width: 100px;
+    height: 100%;
+    background-color: white;
+    border: solid 1px black;
+    padding-top: 400px;
+    padding-left: 27px;
+}
+
+.left{
+    flex: 0.1;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -100px;
+    width: 65px;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    border: solid 1px black;
+    padding-top: 400px;
+    padding-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-style: italic;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+/* PG 03
+**************************************************************/
+
+.clock03{
+    font-family: Plantin;
+    font-size: 30px;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 50px;
+    position: relative;
+    height: 100%;
+}
+
+.img03{
+    height: 500px;
+    flex: 0.6;
+    background-image:url(IMAGES/lola.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 120px;
+    
+}
+
+.clock03 p{
+    font-size: 12px;
+    flex: 0.5;
+    margin-right: 150px;
+}
+
+.big{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 814px;
+    margin-top: -15px;
+    height: 100%;
+}
+
+.footer01{
+    position: fixed;
+    margin-top: -110px;
+    margin-left: -50px;
+    font-size: 30px;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.right{
+    flex: 0.1;
+    position: absolute;
+    margin-left: 1450px;
+    margin-top: -100px;
+    width: 100px;
+    height: 100%;
+    background-color: white;
+    border: solid 1px black;
+    padding-top: 400px;
+    padding-left: 27px;
+}
+
+.left{
+    flex: 0.1;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -100px;
+    width: 65px;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    border: solid 1px black;
+    padding-top: 400px;
+    padding-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-style: italic;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+/* PG 04
+**************************************************************/
+
+.clock04{
+    font-family: Plantin;
+    font-size: 30px;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 50px;
+    position: relative;
+    height: 100%;
+}
+
+.img04{
+    height: 500px;
+    flex: 0.6;
+    background-image:url(IMAGES/clock4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 120px;
+    
+}
+
+.clock04 p{
+    font-size: 12px;
+    flex: 0.5;
+    margin-right: 150px;
+}
+
+.big{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 814px;
+    margin-top: -15px;
+    height: 100%;
+}
+
+.footer01{
+    position: fixed;
+    margin-top: -110px;
+    margin-left: -50px;
+    font-size: 30px;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.right{
+    flex: 0.1;
+    position: absolute;
+    margin-left: 1450px;
+    margin-top: -100px;
+    width: 100px;
+    height: 100%;
+    background-color: white;
+    border: solid 1px black;
+    padding-top: 400px;
+    padding-left: 27px;
+}
+
+.left{
+    flex: 0.1;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -100px;
+    width: 65px;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    border: solid 1px black;
+    padding-top: 400px;
+    padding-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-style: italic;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+/* PG 05
+**************************************************************/
+
+.clock05{
+    font-family: Plantin;
+    font-size: 30px;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 50px;
+    position: relative;
+    height: 100%;
+}
+
+.img05{
+    height: 500px;
+    flex: 0.6;
+    background-image:url(IMAGES/clock5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 120px;
+    
+}
+
+.clock05 p{
+    font-size: 12px;
+    flex: 0.5;
+    margin-right: 150px;
+}
+
+.big{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 814px;
+    margin-top: -15px;
+    height: 100%;
+}
+
+.footer01{
+    position: fixed;
+    margin-top: -110px;
+    margin-left: -50px;
+    font-size: 30px;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.right{
+    flex: 0.1;
+    position: absolute;
+    margin-left: 1450px;
+    margin-top: -100px;
+    width: 100px;
+    height: 100%;
+    background-color: white;
+    border: solid 1px black;
+    padding-top: 400px;
+    padding-left: 27px;
+}
+
+.left{
+    flex: 0.1;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -100px;
+    width: 65px;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    border: solid 1px black;
+    padding-top: 400px;
+    padding-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-style: italic;
+    letter-spacing: 1px;
+    color: blue;
+}
+
+/* PG 06
+**************************************************************/
+
+.clock06{
+    font-family: Plantin;
+    font-size: 30px;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 50px;
+    position: relative;
+    height: 100%;
+}
+
+.img06{
+    height: 500px;
+    flex: 0.6;
+    background-image:url(IMAGES/clock6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 120px;
+    
+}
+
+.clock06 p{
+    font-size: 12px;
+    flex: 0.5;
+    margin-right: 150px;
+}
+
+.big{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 814px;
+    margin-top: -15px;
+    height: 100%;
+}
+
+.footer01{
+    position: fixed;
+    margin-top: -110px;
+    margin-left: -50px;
+    font-size: 30px;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.right{
+    flex: 0.1;
+    position: absolute;
+    margin-left: 1450px;
+    margin-top: -100px;
+    width: 100px;
+    height: 100%;
+    background-color: white;
+    border: solid 1px black;
+    padding-top: 400px;
+    padding-left: 27px;
+}
+
+.left{
+    flex: 0.1;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: -100px;
+    width: 65px;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    border: solid 1px black;
+    padding-top: 400px;
+    padding-left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    font-style: italic;
+    letter-spacing: 1px;
+    color: blue;
+}
